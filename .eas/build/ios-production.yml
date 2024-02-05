@@ -7,6 +7,8 @@ build:
         name: Install dependencies
         command: npm install
 
+    - eas/get_credentials_for_build_triggered_by_github_integration
+
     - eas/resolve_apple_team_id_from_credentials:
         id: resolve_apple_team_id_from_credentials
 
