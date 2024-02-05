@@ -37,6 +37,24 @@
     },
     "production": {
       "extends": "base"
+    },
+    "custom-preview": {
+      "distribution": "internal",
+      "android": {
+        "config": "android-internal.yml"
+      },
+      "ios": {
+        "simulator": true,
+        "config": "ios-simulator.yml"
+      }
+    },
+    "custom-production": {
+      "android": {
+        "config": "android-production.yml"
+      },
+      "ios": {
+        "config": "ios-production.yml"
+      }
     }
   },
   "submit": {
