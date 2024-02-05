@@ -39,6 +39,7 @@
       "extends": "base"
     },
     "custom-preview": {
+      "extends": "base",
       "distribution": "internal",
       "android": {
         "config": "android-internal.yml"
@@ -49,6 +50,7 @@
       }
     },
     "custom-production": {
+      "extends": "base",
       "android": {
         "config": "android-production.yml"
       },
