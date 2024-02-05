@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "github-expo-test-app",
-    "slug": "github-expo-test-app",
+    "name": "testapp",
+    "slug": "testapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,25 +11,24 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.szdziedzic.githubexpotestapp"
+      "bundleIdentifier": "org.reactjs.native.example.testapp.turtlev2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "org.reactjs.example.testapp.turtlev2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "9656a7da-9050-4250-b959-a065bab8679f"
+        "projectId": "16e42fae-b917-4f9a-a6d0-9b82d17d92f5"
       }
     }
   }
