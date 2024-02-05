@@ -3,11 +3,21 @@
     "version": ">= 3.9.1"
   },
   "build": {
+    "base": {
+      "ios": {
+        "image": "latest"
+      },
+      "android": {
+        "image": "latest"
+      }
+    },
     "development": {
+      "extends": "base",
       "developmentClient": true,
       "distribution": "internal"
     },
     "development-simulator": {
+      "extends": "base",
       "developmentClient": true,
       "distribution": "internal",
       "ios": {
@@ -15,15 +25,19 @@
       }
     },
     "preview": {
+      "extends": "base",
       "distribution": "internal"
     },
     "preview-simulator": {
+      "extends": "base",
       "distribution": "internal",
       "ios": {
         "simulator": true
       }
     },
-    "production": {}
+    "production": {
+      "extends": "base"
+    }
   },
   "submit": {
     "production": {}
