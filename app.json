@@ -14,15 +14,13 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "org.reactjs.native.example.testapp.turtlev2"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "org.reactjs.example.testapp.turtlev2"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
