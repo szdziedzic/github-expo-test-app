@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "org.reactjs.native.example.testapp.turtlev2"
@@ -29,7 +31,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "cba9fa3d-ce57-41c4-b043-ad73adf220ad"
+        "projectId": "16e42fae-b917-4f9a-a6d0-9b82d17d92f5"
       }
     }
   }
